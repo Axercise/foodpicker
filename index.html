@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FOODPICKER ITF</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@400;500&family=Noto+Sans+Thai:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <span class="nav-id">69070082</span>
+    <span class="nav-title">FOODPICKER ITF</span>
+    <span class="nav-week">Week15</span>
+  </nav>
+
+  <main class="stage">
+    <h1 class="question">วันนี้กินอะไรดี?</h1>
+
+    <article class="card" aria-live="polite">
+      <div class="plate">
+        <img id="food-img" src="images/khaomangai.svg" alt="ข้าวมันไก่" width="300" height="300">
+      </div>
+      <h2 id="food-name" class="food-name">ข้าวมันไก่</h2>
+      <p id="food-desc" class="food-desc">น้ำซุปใส ไก่นุ่ม ข้าวหอมมัน พร้อมน้ำจิ้มเต้าเจี้ยว</p>
+      <span id="food-price" class="food-price">ราคา 50-65 บาท</span>
+    </article>
+
+    <button id="random-btn" class="random-btn" type="button">สุ่มเมนูอาหาร</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
